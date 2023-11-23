@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:#ffffff;
+	background: #DCB6D5;
+
+}
+.love,.yes,.no{padding-top: 12%;
+		
+		}
+.love span{color: #B15E6C; }
+a{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 24px; text-decoration: none;padding: 5px 10px;
+	margin-top:100px;border:2px solid white; border-radius: 10px;}
+p{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 80px;margin-bottom: 5px;}
+#nose{color:white; background: #CEC2FF;}
+#obvio{color:white; background: #CF8BA9;}
+#chi{color:white; background: #B3B3F1;margin-right: 5px;}
+#heart{color:white; background: rgb(245, 96, 133);margin-right: 5px;}
+#index{color:white; background: rgb(243, 245, 96);margin-right: 5px;}
+
+.yes img{
+	height: 50px;
+	width: 50px;
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.5);}
+	50%{transform: scale(1.5);}
+	100%{transform: scale(.5);}
+}
